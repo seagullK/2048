@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+body {
+
+    background-color: #d7d5ca;
+}
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading {
+    justify-content: space-between;
+    font-size: 60px;
+    margin: -2rem 0 -2rem 0;
+    font-weight: bold;
+    color: #40320b;
+    display: flex;
+}
+.score {
+    font-size: 20px;
+    margin: 3rem 0 -2rem 0;
+    line-height: 6px;
+}
+.aboutGame {
+    justify-content: space-between;
+    font-size: 15px;
+    margin: 0;
+    color: #40320b;
+    display: flex;
+
+}
+.aboutGame button{
+    background: #8f7a66;
+    border-radius: 3px;
+    padding: 0 20px;
+    text-decoration: none;
+    color: #f9f6f2;
+    height: 40px;
+    float: right;
+
+}
+.game-board {
+    background-color: #bcae8a;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 4px;
+    border-radius: 5px;
+    position:relative;
+}
+.gameMessage{
+    height: 700px;
+    font-size: 60px;
+    font-weight: bold;
+    background-color: rgba(215, 213, 202, 0.4);
+
+    color: #40320b;
+    position:absolute;
+    text-align: center;
+    visibility: visible;
+}
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 8px;
+    padding: 4px;
+    height: 100px;
+}
+
+.cell {
+    padding: 10px;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(208, 196, 179);
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+.cell-2 {
+    background-color: #deb05e;
+}
+
+.cell-4 {
+    background-color: rgb(210, 135, 69);
+}
+
+.cell-8 {
+    background-color: #ca6624;
+}
+
+.cell-16 {
+    background-color: #ec4d1c;
+}
+
+.cell-32 {
+    background-color: #d03201;
+}
+
+.cell-64 {
+    background-color: #b31e04;
+}
+
+.cell-128 {
+    background-color: #d4da20;
+}
+
+.cell-256 {
+    background-color: #9da029;
+}
+
+.cell-512 {
+    background-color: #989018;
+}
+
+.cell-1024 {
+    background-color: #7e8613;
+}
+
+.cell-2048 {
+    background-color: #6d9902;
+}
